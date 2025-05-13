@@ -30,3 +30,9 @@
       min-width: 250px;
     }
     
+    .btn.btn-info {
+      padding: 2px 1.75em;  /* top-bottom: 2px, left-right: ~28px */
+      font-size: 12px;       /* shrinks the button text size */
+      cursor: pointer;       /* makes the cursor a pointer on hover */
+    }
+    
