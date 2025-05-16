@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'vendor',
+    'menu',
  ]
 
 AUTH_USER_MODEL = 'accounts.User'
@@ -98,6 +99,7 @@ DATABASES = {
         'USER' : config('DB_USER'),
         'PASSWORD': config('DB_PASSWORD'),
         'HOST' : config('DB_HOST'),
+        'PORT': config('PORT'),
     }
 }
 
